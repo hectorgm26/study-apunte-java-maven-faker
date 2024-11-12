@@ -45,27 +45,31 @@ Este proyecto utiliza la dependencia Java Faker, que puedes agregar al archivo p
 ```
 
 ### Uso de la Librería Java Faker
-La librería Java Faker permite crear una variedad de datos ficticios para pruebas de desarrollo. Algunas de las opciones disponibles son:
 
-- Nombre y Apellido:
-faker.name().firstName() - Genera un nombre aleatorio.
-faker.name().lastName() - Genera un apellido aleatorio.
+La librería `Java Faker` permite crear una variedad de datos ficticios para pruebas de desarrollo. Algunas de las opciones disponibles son:
 
-- Dirección:
-faker.address().fullAddress() - Genera una dirección completa.
-faker.address().city() - Genera una ciudad aleatoria.
-faker.address().state() - Genera un estado aleatorio.
+- **Nombre y Apellido**:
+  - `faker.name().firstName()` - Genera un nombre aleatorio.
+  - `faker.name().lastName()` - Genera un apellido aleatorio.
 
-- Información de Contacto:
-faker.internet().emailAddress() - Genera un email.
-faker.phoneNumber().phoneNumber() - Genera un número de teléfono.
+- **Dirección**:
+  - `faker.address().fullAddress()` - Genera una dirección completa.
+  - `faker.address().city()` - Genera una ciudad aleatoria.
+  - `faker.address().state()` - Genera un estado aleatorio.
 
--Datos Numéricos:
-faker.number().numberBetween(min, max) - Genera un número entero en el rango especificado.
-faker.number().randomDouble(decimales, min, max) - Genera un número decimal.
-faker.bool().bool() - Genera un valor booleano.
+- **Información de Contacto**:
+  - `faker.internet().emailAddress()` - Genera un email.
+  - `faker.phoneNumber().phoneNumber()` - Genera un número de teléfono.
+
+- **Datos Numéricos**:
+  - `faker.number().numberBetween(min, max)` - Genera un número entero en el rango especificado.
+  - `faker.number().randomDouble(decimales, min, max)` - Genera un número decimal.
+  - `faker.bool().bool()` - Genera un valor booleano.
 
 ### Notas
-Este repositorio es una referencia para el uso de Java Faker en proyectos de Java. Se proporciona como una guía rápida para generar datos de prueba y practicar el uso de esta librería. Si te resulta útil, siéntete libre de explorarlo y utilizarlo.
+
+Este repositorio es una referencia para el uso de `Java Faker` en proyectos de Java. Se proporciona como una guía rápida para generar datos de prueba y practicar el uso de esta librería. Si te resulta útil, siéntete libre de explorarlo y utilizarlo.
+
 ---
+
 ¡Espero que te sea de ayuda!
